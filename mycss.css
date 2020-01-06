@@ -27,7 +27,7 @@ tr:first-child th:last-child {
 
 
 body{background-color:#d0e4fe;}
-h1{color:orange;text-align:center;}
+h1{color:rgba(255, 94, 0, 0.767);text-align:center;}
 p{font-family:"Times New Roman";font-size:20px;}
 p.italic {font-style:italic;}
 p.small {font-variant:small-caps;}
@@ -35,7 +35,7 @@ bf {font-weight:bold; color:#00CED1;}
 
 
 a:link {color: #FF0000;}
-a:visited {color: #00FF00;}
+a:visited {color: rgb(0, 110, 255);}
 a:hover {color: #FF00FF;}
 a:active {color: #0000FF;}
 
@@ -51,7 +51,7 @@ border:1px solid gray;
 margin: 5px 20px 5px 0px;
 float:left;}
 
-
+/* does not need any more */
 .float-right-top {
   position: absolute;
   right: 0;
