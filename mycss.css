@@ -1,0 +1,59 @@
+table {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 640px;
+  border-spacing: 1px;
+  *border-collapse: collapse;
+}
+            
+th {
+  /* Gradient Background */
+    background: linear-gradient(to bottom right,#333 0%,#444 100%);
+    color: #FFF; font-weight: bold;
+    height: 30px;
+    padding: 10px;
+}
+        
+td {  border: 1px solid #999; height: 30px; text-align: center; }
+
+/* Add border-radius to specific cells! */
+tr:first-child th:nth-child(1) {
+  border-radius: 6px 0 0 0;
+  border-left: none;
+}
+tr:first-child th:last-child {
+  border-radius: 0 6px 0 0;
+}
+
+
+body{background-color:#d0e4fe;}
+h1{color:orange;text-align:center;}
+p{font-family:"Times New Roman";font-size:20px;}
+p.italic {font-style:italic;}
+p.small {font-variant:small-caps;}
+bf {font-weight:bold; color:#00CED1;}
+
+
+a:link {color: #FF0000;}
+a:visited {color: #00FF00;}
+a:hover {color: #FF00FF;}
+a:active {color: #0000FF;}
+
+
+img.float_r {
+padding:5px
+border:1px solid gray;
+margin: 5px 20px 5px 0px;
+float:right;}
+img.float_l {
+padding:5px;
+border:1px solid gray;
+margin: 5px 20px 5px 0px;
+float:left;}
+
+
+.float-right-top {
+  position: absolute;
+  right: 0;
+  top: 0;
+} 
